@@ -2,6 +2,8 @@
 
 Send emails using Mailchimp API and Sendgrid. The API that integrates to this frontend can be found here https://github.com/wviveiro/wv-send-email
 
+This project is open and running on http://sendemail.wviveiro.com
+
 ## How to install
 
 After cloning this project, just install the npm modules
@@ -18,6 +20,7 @@ Applications uses the file `.env` to get the backend url. Copy the file `.env.SA
 ## Mock Server
 
 In order to test this project locally, I have created a mock server which runs a little express application. To start the mock server, just run `npm run mock:server`
+
 
 
 ## TODO
