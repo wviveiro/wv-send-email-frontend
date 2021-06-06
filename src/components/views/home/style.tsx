@@ -35,13 +35,6 @@ export const HomeContainer = styled.div`
             }
         }
     }
-
-    .inner-wrap {
-        width: 90%;
-        margin: 0 auto;
-        margin-top: 50px;
-        max-width: 700px;
-    }
 `;
 
 

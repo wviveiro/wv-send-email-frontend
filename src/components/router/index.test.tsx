@@ -1,10 +1,10 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Home from './index';
+import Router from './index';
 
-describe("VIEW HOME", () => {
+describe("Router", () => {
     test('renders learn react link', () => {
-        render(<Home />);
+        render(<Router />);
         const linkElement = screen.getByText(/Ready to send an email?/i);
         expect(linkElement).toBeInTheDocument();
       });
